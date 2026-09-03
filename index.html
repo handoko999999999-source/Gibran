@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffaf3">
+  <title>Cemilan ku — Aneka Cemilan Lezat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="phone-shell" aria-label="Toko Cemilan ku">
+    <div class="speaker"></div>
+    <div class="screen">
+      <header class="topbar">
+        <button class="icon-button" type="button" aria-label="Buka menu" id="menuButton"><span class="menu-icon">☰</span></button>
+        <a class="brand-mini" href="#home" aria-label="Cemilan ku beranda"><span class="brand-mark">ck</span><span>Cemilan <b>ku</b></span></a>
+        <div class="topbar-actions">
+          <button class="bag-button" type="button" aria-label="Lihat keranjang" id="bagButton"><span>♧</span><i id="bagCount">0</i></button>
+        </div>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Cemilan ku <span>✦</span></p>
+          <h1>Teman renyah<br><em>setiap cerita.</em></h1>
+          <p class="hero-text">Aneka cemilan lezat, dibuat dengan rasa yang bikin susah berhenti.</p>
+          <a class="primary-button" href="#menu">Jelajahi rasa <span>↘</span></a>
+        </div>
+        <div class="hero-art" aria-label="Koleksi cemilan renyah">
+          <div class="sunburst"></div>
+          <img class="hero-logo" src="Cemilan Ku.jpeg" alt="Logo Cemilan ku" loading="eager">
+          <span class="art-sticker">100%<br><small>ENAK</small></span>
+          <span class="art-leaf leaf-one">✦</span><span class="art-leaf leaf-two">✦</span>
+        </div>
+      </section>
+
+      <section class="category-section" aria-label="Pilih kategori">
+        <div class="section-heading"><p class="eyebrow">Pilih favoritmu</p><span>Geser <b>→</b></span></div>
+        <div class="category-list" role="tablist">
+          <button class="category active" type="button" data-filter="all" role="tab">Semua</button>
+          <button class="category" type="button" data-filter="usus" role="tab">Kripik usus</button>
+          <button class="category" type="button" data-filter="pedas" role="tab">Pedas</button>
+          <button class="category" type="button" data-filter="favorit" role="tab">Favorit</button>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading menu-title"><div><p class="eyebrow">Menu hari ini</p><h2>Renyahnya <em>nagih.</em></h2></div><span class="fresh-badge">fresh<br>today</span></div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-category="usus favorit">
+            <div class="product-image pink"><span class="heart">♡</span><img src="https://images.unsplash.com/photo-1621939514649-280e2aa1f6e5?auto=format&fit=crop&w=500&q=80" alt="Kripik usus crispy"></div>
+            <div class="product-info"><div><h3>Kripik usus crispy</h3><p>Gurih original</p></div><button class="add-button" aria-label="Tambah Kripik usus crispy" data-name="Kripik usus crispy" data-price="5000">+</button></div>
+            <strong>Rp 5.000</strong>
+          </article>
+          <article class="product-card" data-category="usus pedas favorit">
+            <div class="product-image orange"><span class="heart">♡</span><img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=500&q=80" alt="Kripik usus pedas" loading="lazy"></div>
+            <div class="product-info"><div><h3>Kripik usus pedas</h3><p>Pedas nampol</p></div><button class="add-button" aria-label="Tambah Kripik usus pedas" data-name="Kripik usus pedas" data-price="5000">+</button></div>
+            <strong>Rp 5.000</strong>
+          </article>
+          <article class="product-card" data-category="favorit">
+            <div class="product-image yellow"><span class="heart">♡</span><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=80" alt="Singkong balado" loading="lazy"></div>
+            <div class="product-info"><div><h3>Singkong balado</h3><p>Manis gurih</p></div><button class="add-button" aria-label="Tambah Singkong balado" data-name="Singkong balado" data-price="5000">+</button></div>
+            <strong>Rp 5.000</strong>
+          </article>
+          <article class="product-card" data-category="pedas">
+            <div class="product-image green"><span class="heart">♡</span><img src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=500&q=80" alt="Basreng stik pedas daun jeruk" loading="lazy"></div>
+            <div class="product-info"><div><h3>Basreng stik</h3><p>Pedas daun jeruk</p></div><button class="add-button" aria-label="Tambah Basreng stik" data-name="Basreng stik pedas daun jeruk" data-price="5000">+</button></div>
+            <strong>Rp 5.000</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="trust-strip"><span>✦</span><p>Dibuat fresh setiap hari<br><b>Rasa rumahan, kualitas pilihan.</b></p><span>✦</span></section>
+      <footer><span class="brand-mark">ck</span><p>Cemilan ku <small>Aneka cemilan lezat</small></p><a href="https://wa.me/6289523245511" target="_blank" rel="noreferrer" aria-label="Chat WhatsApp">wa ↗</a></footer>
+    </div>
+  </main>
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <section class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-header"><div><p class="eyebrow">Pesananmu</p><h2 id="cartTitle">Cek dulu, <em>ya.</em></h2></div><button class="close-button" type="button" id="closeCart" aria-label="Tutup keranjang">×</button></div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-empty" id="cartEmpty">Keranjang masih kosong.<br><span>Pilih cemilan favoritmu dulu, ya.</span></div>
+      <div class="cart-total"><span>Total sementara</span><strong id="cartTotal">Rp0</strong></div>
+      <button class="whatsapp-button" type="button" id="checkoutButton">Kirim ke WhatsApp <span>↗</span></button>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status">Ditambahkan ke keranjang</div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Cemilan ku</title>
+  <desc id="desc">Emblem Cemilan ku dengan ilustrasi cemilan renyah</desc>
+  <circle cx="120" cy="120" r="112" fill="#e8792f" stroke="#8f2f16" stroke-width="8"/>
+  <circle cx="120" cy="120" r="99" fill="#2b8b87" stroke="#f8c05f" stroke-width="7"/>
+  <path d="M44 56 Q120 19 196 56 L183 84 Q120 56 57 84Z" fill="#fff0c8" stroke="#8f2f16" stroke-width="5"/>
+  <text x="120" y="57" text-anchor="middle" fill="#78321d" font-family="Georgia,serif" font-size="16" font-weight="700">ASLI ENAKNYA</text>
+  <g stroke="#78321d" stroke-width="4" stroke-linejoin="round">
+    <path d="M63 124 Q71 102 87 115 Q100 95 113 116 Q132 93 144 116 Q166 102 177 126 L169 153 Q120 166 70 151Z" fill="#f5a53d"/>
+    <path d="M77 137 Q93 117 109 137 Q124 117 140 138 Q154 119 166 137" fill="none"/>
+    <path d="M99 109 Q108 79 120 104 Q131 76 143 108" fill="#ed7430"/>
+    <path d="M91 112 Q100 96 110 112 M119 105 Q128 90 138 108" fill="none"/>
+  </g>
+  <circle cx="158" cy="128" r="13" fill="#f5e48b" stroke="#78321d" stroke-width="3"/>
+  <path d="M158 117 Q151 128 158 139 Q165 128 158 117Z" fill="#7bb95b"/>
+  <text x="120" y="190" text-anchor="middle" fill="#fff0c8" font-family="Georgia,serif" font-size="29" font-style="italic" font-weight="700">Cemilan ku</text>
+  <text x="120" y="211" text-anchor="middle" fill="#78321d" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">RENTAH • GURIH • NAGIH</text>
+</svg>
